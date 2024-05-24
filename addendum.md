@@ -46,8 +46,7 @@ While this is a valid evaluation given the limited data, it's important to note 
 
 While morphology-based models performed best on some assays with viability-related readouts, predicting hits for these assays likely involves more than identifying generally toxic compounds. For example, some assays sought compounds selectively affecting specific cell types or conditions, not just broadly cytotoxic ones. The X reactivation assay, despite using cell count, probably required specific effects beyond toxicity to enable cell survival contingent on X reactivation. In non-mammalian assays (yeast, bacteria), extrapolating from mammalian toxicity is even more challenging.
 
-Thus, while cell health indicators likely contribute to the predictive morphological changes, they're probably not the whole story for these assays. A follow-up analysis comparing morphology-based models to models based on cell count alone could help tease apart the contributions of general toxicity versus more specific morphological effects, but with the caveat that "toxicity" itself may have very different implications across the diverse assay types in this dataset. The morphology-based models' strong performance likely reflects their ability to capture a wide range of biologically meaningful cellular changes beyond just cell death.
-
+Thus, while cell health indicators likely contribute to the predictive morphological changes, they're probably not the whole story for these assays. A follow-up analysis comparing morphology-based models to models based on cell count alone could help tease apart the contributions of general toxicity versus more specific morphological effects, but with the caveat that "toxicity" itself may have very different implications across the diverse assay types in this dataset. 
 
 <details>
 <summary>Code</summary>
