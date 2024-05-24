@@ -10,7 +10,7 @@ One of the main concerns raised about our analysis was how we handled these low-
 Specifically, the concern was that for assays with fewer than 5 hits, at least one of the 5 cross-validation folds would necessarily contain no positive examples, leading to an undefined AUC for that fold. 
 When aggregating AUCs across folds (by taking the median or mean), these undefined values (NaNs) would be ignored.
 
-However this does not inflated performance estimates. Here's a detailed explanation of why our approach is valid:
+However this does not inflate performance estimates. Here's a detailed explanation of why our approach is valid:
 
 Consider an example assay (175_561) which has 1 active compound out of 31 total compounds, and for which we report an AUC of 1.0 using the Cell Painting data modality. 
 In a 5-fold cross-validation setup, the distribution of active and inactive compounds might look like this:
