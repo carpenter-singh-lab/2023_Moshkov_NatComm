@@ -77,5 +77,5 @@ The related preprint [Predicting compound activity from phenotypic profiles and 
 
 # Addendum
 
-See further notes in the [addendum](addendum.md) for some clarifications about the reported results.
+See further  in the [addendum](addendum.md) for clarifications about the reported results.
 
