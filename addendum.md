@@ -45,7 +45,7 @@ While this is a valid evaluation given the limited data, it's important to note 
 ## Morphology Performance and Cell Health
 
 We observed that many of the assays where morphology-based models performed best related to overall cell health and viability. 
-While our paper focused on predictive performance and did not dive deeply into the biological mechanisms behind the successful predictions, it's possible that the models are changes in cell density, cell count, and other global indicators of cell health may be a major component of the morphological changes that the models are picking up on.
+While our paper focused on predictive performance and did not dive deeply into the biological mechanisms behind the successful predictions, it's possible that changes in cell density, cell count, and other global indicators of cell health may be a major component of the morphological changes that the models are picking up on.
 We suggest that a valuable follow-up analysis could directly compare the performance of morphology-based models to models based on cell count alone, to tease apart the contributions of these different factors.
 
 <details>
