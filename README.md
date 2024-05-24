@@ -2,7 +2,6 @@
 
 The code release: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7742610.svg)](https://doi.org/10.5281/zenodo.7742610)
 
-
 The related preprint [Predicting compound activity from phenotypic profiles and chemical structures](https://www.biorxiv.org/content/10.1101/2020.12.15.422887). 
 
 ## The dataset, which includes all the related data is on Zenodo
@@ -75,3 +74,8 @@ The related preprint [Predicting compound activity from phenotypic profiles and 
 - Supplementary Figure 15 Can be generated with assay metadata `./assay_data/assay_metadata.csv`, which also can be found in the Excel file (see paper's dataset on Zenodo).
 
 *Excel file is in `/misc/Tables for PUMA.xlsx` in paper's Zenodo dataset. 
+
+# Addendum
+
+See [addendum](addendum.md) for clarifications about the reported results.
+
